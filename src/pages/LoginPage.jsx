@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
 
 export default function LoginPage() {
     return (
@@ -19,7 +18,7 @@ export default function LoginPage() {
                         <label className="form-label" htmlFor="typePasswordX">Contraseña</label>
                         <input type="password" id="typePasswordX" className="form-control form-control-lg" />
                       </div>
-                      <button data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-light btn-lg px-8" type="submit"><a href="/dashboard">Ingresar</a></button>
+                      <button data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-light btn-lg " type="submit"><a href="/dashboard">Ingresar</a></button>
                     </div>
                   </div>
                 </div>
